@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Login Form</title>
+<link rel="stylesheet" href="css/login.css">
+<link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap" rel="stylesheet">
+<script src="https://kit.fontawesome.com/2a894bd375.js" crossorigin="anonymous"></script>
+<style >
+input i{height:18px;}
+</style>
+</head>
+<body>
+	<div class="container" style="height:400px;">
+		<h1>Login form</h1>
+   <form  action="validateServlet" class="form" method="get">
+		<div class="input"><label name="uname">
+		<i class="fa fa-user" aria-hidden="true"></i><input type="text" class="inpt"  class="uname" name="uname" placeholder="Username"
+		required="required">
+		</label>
+		</div>
+		<div class="input"><label name="pass">
+			<i class="fa-solid fa-lock" aria-hidden="true"></i><input type="password" class="inpt" name="pass" placeholder="Password" required="required">
+		</label>
+		</div>
+		<div  style="display:flex ;justify-content: left ;margin-top:20px;margin-left:25px">
+			<input type="reset"  value="Reset">
+	
+		
+			<button  style="margin-left:192px;"><a href="index.html" style="text-decoration: none;color:black">Home Page</a></button>
+					
+		</div>		
+	
+		
+		<div>
+			<input type="Submit" class="btn" value="Login">
+		
+		</div>
+	</form>
+</body>
+</html>

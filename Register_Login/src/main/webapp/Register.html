@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Registration Page</title>
+<link rel="stylesheet" href="css/style.css">
+<link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap" rel="stylesheet">
+<script src="https://kit.fontawesome.com/2a894bd375.js" crossorigin="anonymous"></script>
+
+
+
+</head>
+<body>
+	<div class="container" style="height:530px;">
+		<h1>Registration form</h1>
+		<form  action="studentRegistration" target="_blank" method="post">
+	<div class="input"><label name="uname">
+	<i class="fa fa-user" aria-hidden="true"></i><input type="text" class="inpt"  class="uname" name="uname" placeholder="Username"
+	required="required">
+	</label>
+	</div>
+	<div class="input"><label name="pass">
+		<i class="fa-solid fa-lock" aria-hidden="true"></i><input type="password" class="inpt" name="pass" placeholder="Password" required="required">
+	</label>
+	</div>
+	<div class="input"><label name="email">
+		<i class="fa-solid fa-envelope"></i><input type="text" class="inpt" name="email" placeholder="Email" required="required">
+	</label>
+	</div>
+	<div class="input"><label name="dob">
+		<i class="fa-solid fa-calendar-days" aria-hidden="true"></i><input type="text" class="inpt" name="dob" placeholder="DOB" required="required">
+	</label>
+	</div>
+	<div class="gender "><label name="gen">
+		<input type="radio" name="gen" value="Male" required="required">Male<input type="radio" name="gen" value="Female" required="required">Female
+	</label>
+	</div>
+	<div class="input"><label name="city">
+		<i class="fa-solid fa-house-user" aria-hidden="true"></i><input type="text" class="inpt" name="city" placeholder="City"required="required">
+	
+	</label>
+	</div>
+	<div  style="display:flex ;justify-content: left ;margin-top:22px;margin-left:25px">
+			<input class="btn1" type="reset"  value="Reset">
+	
+		
+			<button class="btn1" style="margin-left:192px;"><a href="index.html" style="text-decoration: none;color:black">Home Page</a></button>
+					
+		</div>	
+	<div>
+	    
+		<input type="Submit" class="btn" value="Register">
+	 
+	</div>
+	</form>
+	
+	</div>
+	
+</body>
+</html>
